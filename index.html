@@ -66,10 +66,10 @@
       <div class="outer">
         <section id="main">
   
-    <article id="post-My-New-Post" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-create-springboot-starter" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2019/05/28/My-New-Post/" class="article-date">
-  <time datetime="2019-05-28T01:16:43.000Z" itemprop="datePublished">2019-05-28</time>
+    <a href="/2019/05/30/create-springboot-starter/" class="article-date">
+  <time datetime="2019-05-30T02:56:43.000Z" itemprop="datePublished">2019-05-30</time>
 </a>
     
   </div>
@@ -80,7 +80,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2019/05/28/My-New-Post/">My New Post</a>
+      <a class="article-title" href="/2019/05/30/create-springboot-starter/">Create Spring Boot Starter</a>
     </h1>
   
 
@@ -88,13 +88,29 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        
+        <h1 id="Spring-Boot-Starter-简介"><a href="#Spring-Boot-Starter-简介" class="headerlink" title="Spring Boot Starter 简介"></a>Spring Boot Starter 简介</h1><pre><code>Starter是Spring Boot中的一个非常重要的概念，Starter相当于模块，它能将模块所需的依赖整合起来并对模块内的Bean根据环境（条件）进行自动配置。使用者只需要依赖相应
+</code></pre><p>功能的Starter，无需做过多的配置和依赖，Spring Boot就能自动扫描并加载相应的模块。<br>总结：</p>
+<ol>
+<li>它整合了这个模块需要的依赖库</li>
+<li>提供对模块的配置项给使用者</li>
+<li>提供自动配置类对模块内的Bean进行自动装配</li>
+</ol>
+<h1 id="Starter-的开发步骤"><a href="#Starter-的开发步骤" class="headerlink" title="Starter 的开发步骤"></a>Starter 的开发步骤</h1><ol>
+<li>新建Maven项目，在项目的POM文件中定义使用的依赖</li>
+<li>新建配置类，写好配置项和默认的配置值，指明配置项前缀</li>
+<li>新建自动装配类，使用@Configuration和@Bean来进行自动装配</li>
+<li>新建spring.factories文件，指定Starter的自动装配类</li>
+</ol>
+<p>以上内容引用自作者：<a href="https://www.jianshu.com/p/bbf439c8a203" target="_blank" rel="noopener">liushiping</a></p>
+<h1 id="Starter-开发示例"><a href="#Starter-开发示例" class="headerlink" title="Starter 开发示例"></a>Starter 开发示例</h1>
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/05/28/My-New-Post/" data-id="cjw74asfo00003oao56g9vw3g" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/05/30/create-springboot-starter/" data-id="cjwa2wcu40000xcaoe5zmcxv2" class="article-share-link">Share</a>
       
       
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Spring-Boot/">Spring Boot</a></li></ul>
+
     </footer>
   </div>
   
@@ -199,7 +215,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/05/28/markdown-demo/" data-id="cjw74asfw00013oaon3owsl51" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/05/28/markdown-demo/" data-id="cjwa2wcva0004xcaonzoakaby" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/markdown/">markdown</a></li></ul>
@@ -246,7 +262,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/02/22/hello-world/" data-id="cjw74asg000023oao8bx0gn9j" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/02/22/hello-world/" data-id="cjwa2wcuf0001xcao766kd9l2" class="article-share-link">Share</a>
       
       
     </footer>
@@ -269,7 +285,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tags</h3>
     <div class="widget">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/markdown/">markdown</a></li></ul>
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Spring-Boot/">Spring Boot</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/markdown/">markdown</a></li></ul>
     </div>
   </div>
 
@@ -279,7 +295,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget tagcloud">
-      <a href="/tags/markdown/" style="font-size: 10px;">markdown</a>
+      <a href="/tags/Spring-Boot/" style="font-size: 10px;">Spring Boot</a> <a href="/tags/markdown/" style="font-size: 10px;">markdown</a>
     </div>
   </div>
 
@@ -301,7 +317,7 @@
       <ul>
         
           <li>
-            <a href="/2019/05/28/My-New-Post/">My New Post</a>
+            <a href="/2019/05/30/create-springboot-starter/">Create Spring Boot Starter</a>
           </li>
         
           <li>
